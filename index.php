@@ -279,7 +279,7 @@ $mailSent = mail($to,$subject,$message,$headers);
         </div>
     </section>
 
-    <section class="contact" id="contacts">
+    <section class="contact" id="contacts" class="col-md-6">
       <h2 class="contact-mainText">CONTACT</h2>
       
         <div class="contact-row">
@@ -322,7 +322,7 @@ $mailSent = mail($to,$subject,$message,$headers);
             </div>
           </div>
           
-          <form method="post" action="index.php" name="email" class="col-6">
+          <form method="post" action="index.php" name="email" class="col-md-6">
             <div class="inputs">
               <input type="text" class="col-6" name="client-name" required placeholder="Your Name">
               <input type="email" class="col-5" name="client-email" required placeholder="Your Email Address">
