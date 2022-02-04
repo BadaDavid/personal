@@ -51,10 +51,10 @@ $headers .= 'Cc:' . "\r\n";
 $mailSent = mail($to,$subject,$message,$headers);
 
     if ($mailSent === true) {
-      echo "<script>Your Email Has Been Sent Successfully. I'll Get Back To You As Soon As Possible</script>";
+      echo "<script>alert('Your Email Has Been Sent Successfully. I'll Get Back To You As Soon As Possible')</script>";
     }
     else{
-      echo"<script>Sorry An Error Occured Please Try Again OR Contact Me Through My Social Media Platforms</script>";
+      echo"<script>alert('Sorry An Error Occured Please Try Again OR Contact Me Through My Social Media Platforms')</script>";
     }
   }
 ?>
