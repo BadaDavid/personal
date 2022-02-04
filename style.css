@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Exo', sans-serif;
+}
+/* Navigation bar */
+
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.975);
+    padding: 12px 0px;
+    position: relative;
+
+    
+}
+nav .container{
+    flex-wrap: wrap !important;
+}
+nav ul{
+    display: flex;
+    gap: 18px;
+}
+nav ul li{
+    list-style: none;
+    
+    
+}
+nav ul li a{
+    text-decoration: none !important;
+    color: white;
+    /* transition: 0.5s; */
+}
+nav ul li a:hover{
+    color: wheat;
+    border-bottom: rgb(201, 171, 1) 2px solid;
+    border-radius: 2px;
+}
+.home{
+    border-bottom:  rgb(201, 171, 1) 2px solid;
+    border-radius: 2px;
+    color: white !important;
+    
+}
+nav a{
+    text-decoration: none !important;
+}
+.o{
+    font-family: 'The Nautigal', cursive;
+}
+nav a div{
+    color: white !important;
+    font-size: 18px;
+    
+}
+.container{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+/* First Section */
+main{
+    background:rgba(0, 0, 0, 0.7) url(codeBackground/photo-1520583457224-aee11bad5112.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+}
+.section1{
+    padding: 250px 0px;
+    
+}
+.img{
+    width: 55%;
+    border-radius: 50%;
+}
+.row .word{
+    font-size: 35px;
+}
+.about{
+    text-align: center;
+    text-decoration: rgb(201, 171, 1) underline;
+}
+
+.image{
+    width: 100%;
+    
+}
+.me{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name{
+    display: flex !important;
+    justify-content: space-around;
+}
+.background-image2{
+    background:rgba(0, 0, 0, 0.7) url(codeBackground/279-2792224_website-background-design-hd.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: -10px;
+    background-attachment: fixed;
+}
+.background-image2 .container{
+    background-color: rgba(209, 209, 209);
+}
+.me h2{
+    color: black;
+}
+.back{
+   color: white;
+}
+.skill{
+    margin-top: -90px ;
+    flex-wrap: wrap;
+}
+.services{
+    padding: 30px 0px;
+    background: url(codeBackground/83-838296_web-designer-professional-website-background-images.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.services-heading{
+    text-align: center;
+    text-decoration: underline 2px rgb(201, 171, 1);
+    color: white;
+}
+
+.service-card{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap: 33px;
+    padding: 60px 0px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.cards{
+    border-radius: 10px;
+    padding: 22px 10px;
+    max-width: 30%;
+    text-align: center;
+    border: rgb(201,171,1) 1px solid;
+    transition: all 0.5s;
+}
+.cards .service-main{
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.cards .service-text{
+    font-size: 15px;
+}
+.cards:hover{
+    background-color: rgb(177, 156, 36);
+    border: none;
+    color: white;
+    padding: 18px 6px;
+}
+/* Sliders */
+.slides{
+    padding: 20px 0px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.works{
+    text-align: center;
+    text-decoration: underline 2px rgb(201, 171, 1);
+    color: black;
+}
+.contact-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-mainText{
+    text-align: center;
+    text-decoration: underline 2px rgb(201, 171, 1);
+    color: black;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+input, textarea{
+    border-radius: 4px;
+    border: 1px rgb(135,134,125) solid;
+    padding: 5px 10px;
+}
+input:focus{
+    border: 1px rgb(177, 156, 36) solid;
+    outline: none;
+}
+textarea:focus{
+    border: 1px rgb(177, 156, 36) solid;
+    outline: none;
+}
+#submitBtn{
+    margin: 0px auto;
+    border-radius: 30px;
+    background-color: rgb(201,171,1);
+    padding: 10px 15px;
+    color: white;
+    transition: 0.5s;
+    border: none;
+    font-weight: bold;
+    margin-top: 3px;
+}
+#submitBtn:hover{
+    cursor: pointer;
+    background-color: rgb(177, 156, 36);
+    margin-top: 12px;
+}
+.social{
+    border-radius: 10px;
+    border: rgb(177, 156, 36) 1px solid;
+    transition: all 0.5s;
+    margin: 8px 0px;
+}
+.social:hover{
+    border: black solid 1px;
+}
+.socials a{
+    text-decoration: none !important;
+    color: black;
+}
+.what{
+    padding: 5px 20px;
+}
+.fb{
+    padding: 5px 20px;
+}
+.ig{
+    padding: 8px 20px;
+}
+.twi{
+    padding: 7px 26px;
+}
+.lin{
+    padding: 5px 25px;
+}
+.tele{
+    padding: 5px 22px;
+}
+.fa-whatsapp:hover{
+    color: rgb(46,185,66);
+    transition: all 0.5s;
+}
+.fa-instagram:hover{
+    color:  rgb(235, 32, 18);
+    transition: all 0.5s;
+}
+.fa-facebook:hover{
+    color: #0571e6;
+    transition: all 0.5s;
+}
+.fa-linkedin:hover{
+    color: #0b66c3;
+    transition: all 0.5s;
+}
+.fa-twitter:hover{
+    color: #1d9bf0;
+    transition: all 0.5s;
+}
+.fa-telegram:hover{
+    color: #2099d4;
+    transition: all 0.5s;
+}
+.row1,.row2,.row3{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.hit{
+    font-size: 30px;
+}
+footer{
+    background-color: rgb(177, 156, 36);
+    padding: 10px 8px;
+    justify-content: space-around;
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    text-align: center;
+}
+small{
+    font-size: 13px;
+}
+strong{
+    font-size: 15px;
+}
+/* Responsiveness */
+@media screen and (max-width:375px) {
+    *{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:576px) {
+    *{
+        font-size: 10px;
+    }
+    nav .container a{
+        margin-right:20px ;
+    }
+    nav ul{
+        gap: 8px;
+    }
+    nav a div{
+        font-size: 10px;
+    }
+    .container{
+        flex-wrap: wrap;
+    }
+
+    .image-container{
+        margin-right: 30px;
+    }
+    .skill{
+        margin-top: 5px !important;
+    }
+    .service-card{
+        gap: 2px !important;
+    }
+    .cards{
+        min-width: 55% !important;
+        margin: 3px 0px !important;
+    }
+
+}
+@media screen and (max-width:667px) {
+    main{
+        margin-top: -1500px !important;
+    }
+    
+}
+@media screen and (max-width:896px)  {
+    *{
+        font-size: 15px ;
+    }
+
+    nav{
+        overflow-x: none;
+    }
+    main{
+        padding-bottom: 500px !important;
+        margin-top: -50px !important;
+    }
+    .skill{
+        margin-top: 0px !important;
+    }
+    .image-container{
+        width: 12rem !important;
+    }
+}
