@@ -279,11 +279,11 @@ $mailSent = mail($to,$subject,$message,$headers);
         </div>
     </section>
 
-    <section class="contact" id="contacts" class="col-md-6">
+    <section class="contact" id="contacts" class="">
       <h2 class="contact-mainText">CONTACT</h2>
       
         <div class="contact-row">
-          <div class="col-3">
+          <div class="col-md-6 ">
             <div class="hit">Hit me up on...</div>
             <div class="socials">
               <div class="row1">
