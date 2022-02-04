@@ -292,14 +292,14 @@ $mailSent = mail($to,$subject,$message,$headers);
                   <div class="fa fa-whatsapp fa-3x"></div>
                   
                 </a>
-                <a href="" class=" social ig">
+                <a href="https://web.facebook.com/bada.david.04" class=" social ig">
                   <div>Instagram</div>
-                  <div class="fa fa-instagram fa-3x"></div>
+                  <div class="fa fa-instagram fa-3x" ></div>
                 </a>
               </div>
               
               <div class="row2">
-                <a href="" class=" social fb">
+                <a href="https://www.instagram.com/badadavid04/?fbclid=IwAR2BIobRsQNFCdHMyKjV_0FogrxVvyOm0SfVhGfxrb4v_kVN25dzvq8AZK8" class=" social fb">
                   <div>Facebook</div>
                  <div class="fa fa-facebook mt-2 fa-3x"></div>
                 </a>
