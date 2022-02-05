@@ -12,15 +12,17 @@ nav{
     background-color: rgba(0, 0, 0, 0.975);
     padding: 12px 0px;
     position: relative;
-
-    
 }
-nav .container{
-    flex-wrap: wrap !important;
-}
+/* nav .container{
+    gap: 20rem !important;
+} */
+.my{
+    margin-right: 15px ;
+    font-size: larger;
+} 
 nav ul{
     display: flex;
-    gap: 18px;
+    /* gap: 18px; */
 }
 nav ul li{
     list-style: none;
@@ -37,13 +39,6 @@ nav ul li a:hover{
     border-bottom: rgb(201, 171, 1) 2px solid;
     border-radius: 2px;
 }
-
-.home{
-    border-bottom:  rgb(201, 171, 1) 2px solid;
-    border-radius: 2px;
-    color: white !important;
-    
-}
 nav a{
     text-decoration: none !important;
 }
@@ -52,7 +47,7 @@ nav a{
 }
 nav a div{
     color: white !important;
-    font-size: 18px;
+    font-size: 28px;
     
 }
 .container{
@@ -69,8 +64,8 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
     color: white;
+    
 }
 .section1{
     padding: 250px 0px;
@@ -149,6 +144,7 @@ main{
     padding: 60px 0px;
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 .cards{
@@ -248,6 +244,7 @@ textarea:focus{
     text-decoration: none !important;
     color: black;
 }
+
 .what{
     padding: 5px 20px;
 }
@@ -306,6 +303,7 @@ footer{
     display: flex;
     color: white;
     text-align: center;
+    bottom: 0 !important;
 }
 small{
     font-size: 13px;
@@ -314,6 +312,12 @@ strong{
     font-size: 15px;
 }
 /* Responsiveness */
+ @media screen and (min-width:360px){
+    nav .container{
+        gap: 0px !important;
+    }
+}
+
 @media screen and (max-width:375px) {
     *{
         font-size: 8px;
@@ -361,10 +365,16 @@ strong{
 }
 @media screen and (max-width:667px) {
     main{
-        margin-top: -1500px !important;
+        justify-content: center !important;
+        text-align: center !important;
     }
     
 }
+/* @media screen and (max-width:820px) {
+    nav .container{
+        gap: 9rem !important;
+    }
+} */
 @media screen and (max-width:896px)  {
     *{
         font-size: 15px ;
@@ -379,11 +389,5 @@ strong{
     .image-container{
         width: 12rem !important;
     }
-    nav .container{
-        justify-content: space-around !important;
-        align-content: center !important;
-    }
-    .navbar-toggler-icon navbar-toggler{
-        position: fixed !important;
-    }
+
 }

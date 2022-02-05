@@ -74,32 +74,32 @@ $mailSent = mail($to,$subject,$message,$headers);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <main id="home">
-        <nav class="fixed-top navbar-expand-md navbar-dark wow fadeInDown">
+          <nav class="fixed-top navbar navbar-expand-md navbar-dark wow fadeInDown">
             <div class="container">
               <a href="" class="my"><div> Bada <span class="o">O.</span> David </div></a>  
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div>
-                <ul  class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <li><a href="#home" class="scrollto active home">Home</a></li>
-                    <li><a href="#about" class="scrollto">About Me</a></li>
-                    <li><a href="#services" class="scrollto">Services</a></li>
-                    <li><a href="#works" class="scrollto">My Works</a></li>
-                    <li><a href="#contacts" class="scrollto">Contact</a></li>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul  class="navbar-nav" id="collapsibleNavbar">
+                  <li class="nav-item"><a href="#home" class=" nav-link scrollto active">Home</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link scrollto">About Me</a></li>
+                  <li class="nav-item"><a href="#services" class="nav-link scrollto">Services</a></li>
+                  <li class="nav-item"><a href="#works" class="nav-link scrollto">My Works</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link scrollto">Contact</a></li>
                 </ul>
               </div>
  
             </div>
-        </nav>
+          </nav>
+    <main id="home">
+
         <div class="container section1">
             <div class="row ">
-                <div class="col-5 wow slideInLeft">
+                <div class="col-md-5 wow slideInLeft">
                     <img src="img/116532548_288204682606509_4641127802972010941_n.jpg" class="img" alt="">
                 </div>
-                <div class="col-7 word wow slideInRight">Hi! My name is David and I'm a Web Designer and Web Developer</div>
+                <div class="col-md-7 word wow slideInRight">Hi! My name is David and I'm a Web Designer and Web Developer</div>
             </div>
         </div>
     </main>
