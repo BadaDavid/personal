@@ -327,7 +327,7 @@ $mailSent = mail($to,$subject,$message,$headers);
             </div>
           </div>
           
-          <form method="post" action="index.php" name="email" class="col-md-8">
+          <form method="post" action="index.php" name="email" class="col-md-7">
             <div class="inputs">
               <input type="text" class="col-6" name="client-name" required placeholder="Your Name">
               <input type="email" class="col-5" name="client-email" required placeholder="Your Email Address">
