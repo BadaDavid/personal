@@ -76,16 +76,21 @@ $mailSent = mail($to,$subject,$message,$headers);
 <body>
 
     <main id="home">
-        <nav class="fixed-top  navbar-dark wow fadeInDown">
-            <div class="container ">
-                <a href="" class="my"><div> Bada <span class="o">O.</span> David </div></a>  
-                <ul>
+        <nav class="fixed-top navbar-expand-md navbar-dark wow fadeInDown">
+            <div class="container">
+              <a href="" class="my"><div> Bada <span class="o">O.</span> David </div></a>  
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div>
+                <ul  class="collapse navbar-collapse" id="collapsibleNavbar">
                     <li><a href="#home" class="scrollto active home">Home</a></li>
                     <li><a href="#about" class="scrollto">About Me</a></li>
                     <li><a href="#services" class="scrollto">Services</a></li>
                     <li><a href="#works" class="scrollto">My Works</a></li>
                     <li><a href="#contacts" class="scrollto">Contact</a></li>
                 </ul>
+              </div>
  
             </div>
         </nav>
@@ -100,9 +105,9 @@ $mailSent = mail($to,$subject,$message,$headers);
     </main>
     <section id="about" class=" background-image2">
 
-        <div class="container">
+        <div class="container scroll">
             
-            <div class="row shadow text-dark shadow py-5 px-3 wow rollIn 5s">
+            <div class="row shadow text-dark py-5 px-3 wow rollIn 5s">
                 <div class="col-md-6  me">
                     <h2 class="text-center about wow zoomInUp mt-2"> ABOUT ME</h2>
                     <br><br>
@@ -161,8 +166,8 @@ $mailSent = mail($to,$subject,$message,$headers);
                         
                     </div>
                 </div>  
-                <div class="container text-justify col-md-6">
-                    <div class="">
+                <div class=" text-justify col-md-6">
+                    
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eaque placeat ab aliquid deleniti recusandae
                         voluptates consectetur sapiente labore laborum itaque molestiae totam non assumenda nobis, commodi fugiat iusto. 
                         Doloremque rem magni cupiditate similique sequi libero facilis iusto repudiandae blanditiis officia quis eum inventore
@@ -173,7 +178,7 @@ $mailSent = mail($to,$subject,$message,$headers);
                         enim fugiat magnam reiciendis nesciunt iste animi voluptatum aliquam? Inventore, soluta itaque. Iure totam exercitationem
                         tenetur! Cupiditate vero molestias incidunt veritatis voluptas iusto asperiores esse assumenda quod natus atque vitae,
                         voluptatem recusandae facere provident tempore architecto? Dolore saepe voluptatum ex praesentium labore!
-                    </div> 
+                    
                 </div>
             
                 
@@ -281,9 +286,9 @@ $mailSent = mail($to,$subject,$message,$headers);
 
     <section class="contact" id="contacts" class="">
       <h2 class="contact-mainText">CONTACT</h2>
-      
+      <div class="container">
         <div class="contact-row">
-          <div class="col-md-6 ">
+          <div class="col-md-4 ">
             <div class="hit">Hit me up on...</div>
             <div class="socials">
               <div class="row1">
@@ -292,14 +297,14 @@ $mailSent = mail($to,$subject,$message,$headers);
                   <div class="fa fa-whatsapp fa-3x"></div>
                   
                 </a>
-                <a href="https://web.facebook.com/bada.david.04" class=" social ig">
+                <a href="https://www.instagram.com/badadavid04/?fbclid=IwAR2BIobRsQNFCdHMyKjV_0FogrxVvyOm0SfVhGfxrb4v_kVN25dzvq8AZK8" class=" social ig">
                   <div>Instagram</div>
                   <div class="fa fa-instagram fa-3x" ></div>
                 </a>
               </div>
               
               <div class="row2">
-                <a href="https://www.instagram.com/badadavid04/?fbclid=IwAR2BIobRsQNFCdHMyKjV_0FogrxVvyOm0SfVhGfxrb4v_kVN25dzvq8AZK8" class=" social fb">
+                <a href="https://web.facebook.com/bada.david.04" class=" social fb">
                   <div>Facebook</div>
                  <div class="fa fa-facebook mt-2 fa-3x"></div>
                 </a>
@@ -322,7 +327,7 @@ $mailSent = mail($to,$subject,$message,$headers);
             </div>
           </div>
           
-          <form method="post" action="index.php" name="email" class="col-md-6">
+          <form method="post" action="index.php" name="email" class="col-md-8">
             <div class="inputs">
               <input type="text" class="col-6" name="client-name" required placeholder="Your Name">
               <input type="email" class="col-5" name="client-email" required placeholder="Your Email Address">
@@ -332,6 +337,7 @@ $mailSent = mail($to,$subject,$message,$headers);
             <input type="submit" id="submitBtn" name="send-btn" value="Send Message">
           </form>
         </div>
+      </div>  
     </section>
     <footer>
       <div class="">
